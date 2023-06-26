@@ -25,3 +25,23 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.input {
+  @apply bg-gray-50 border border-neutral-300 text-neutral-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5;
+}
+
+.label-input {
+  @apply block mb-2 text-sm font-medium text-neutral-900;
+}
+
+.btn {
+  @apply font-normal text-xs py-[10px] px-3 lg:py-[14px] lg:px-[10px] rounded-md;
+}
+
+.btn-primary {
+  @apply bg-orange-500 hover:bg-orange-700 text-neutral-50;
+}
+
+.btn-secondary {
+  @apply bg-transparent border border-neutral-300 text-neutral-900;
+}
